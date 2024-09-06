@@ -5,7 +5,7 @@ use warnings;
 package Devel::Cover::Report::Codecov::Service::GithubActions;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.001000';
+our $VERSION   = '0.001001';
 
 sub detect {
 	return $ENV{GITHUB_ACTIONS};

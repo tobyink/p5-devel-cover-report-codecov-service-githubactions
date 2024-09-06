@@ -4,3 +4,12 @@
 	issued  2024-09-06;
 	label   "Initial release".
 
+`Devel-Cover-Report-Codecov-Service-GithubActions 0.001001 cpan:TOBYINK`
+	issued  2024-09-06;
+	changeset [
+		dcs:versus `Devel-Cover-Report-Codecov-Service-GithubActions 0.001000 cpan:TOBYINK`;
+		item [
+			a dcs:Change;
+			label "Improvements to the output of `configuration` based on codecov documentation.";
+		]
+	].
